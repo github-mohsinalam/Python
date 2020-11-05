@@ -1,4 +1,4 @@
-#Write a function that will return the number of digits in an integer.
+#Write a function that will return the number of digits in an integer
 
 
 def numDigits(n):
