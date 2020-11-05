@@ -3,7 +3,6 @@
 #If the number is less than 10, the function should return “Less than 10.” 
 #If the number is equal to 10, the function should return “Equal to 10.”
 
-
 def num_test(number):
     if number > 10:
         return 'Greater than 10.'
