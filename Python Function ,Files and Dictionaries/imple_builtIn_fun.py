@@ -1,5 +1,5 @@
 #Although Python provides us with many list methods,
-#it is good practice and very instructive to think about how they are implemented. 
+#it is good practice and very instructive to think about how they are implemented.
 #Implement a Python function that works like the following:
 # count
 #in
