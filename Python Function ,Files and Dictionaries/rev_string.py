@@ -1,5 +1,6 @@
 #Write a function that reverses its string argument.
 
+
 def reverse(astring):
     astring_rev = ''
     for char in astring :
