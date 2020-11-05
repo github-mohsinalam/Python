@@ -50,14 +50,14 @@ topBound = wn.window_height() / 2
 bottomBound = -wn.window_height() / 2
 
 t1.up()
-t1.goto(random.randrange(leftBound, rightBound),
-        random.randrange(bottomBound, topBound))
+t1.goto(random.randrange(leftBound, rightBound),    
+        random.randrange(bottomBound, topBound))    #setting the starting point to be random 
 t1.setheading(random.randrange(0, 360))
 t1.down()
 
 t2.up()
 t2.goto(random.randrange(leftBound, rightBound),
-        random.randrange(bottomBound, topBound))
+        random.randrange(bottomBound, topBound))   #setting the starting point to be random
 t2.setheading(random.randrange(0, 360))
 t2.down()
 
