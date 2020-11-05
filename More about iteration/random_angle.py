@@ -30,7 +30,7 @@ wn = turtle.Screen()
 t.shape('turtle')
 while isInScreen(wn,t):
     coin = random.randrange(0, 2)
-    angle = random.randrange(30)        #any random angle starting greater than 30
+    angle = random.randrange(30)        #any random angle starting greater than 30.
     if coin == 0:
         t.left(angle)
     else:
