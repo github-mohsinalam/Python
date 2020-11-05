@@ -1,4 +1,4 @@
-Write a function is_rightangled which, given the length of three sides of a triangle, will determine whether the triangle is right-angled. 
+#Write a function is_rightangled which, given the length of three sides of a triangle, will determine whether the triangle is right-angled. 
 #Assume that the third argument to the function is always the longest side. It will return True if the triangle is right-angled, or False otherwise.
 
 #Hint: floating point arithmetic is not always exactly accurate, so it is not safe to test floating point numbers for equality. 
