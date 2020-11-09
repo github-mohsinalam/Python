@@ -6,8 +6,9 @@ winners = ['Alice Munro', 'Alvin E. Roth', 'Kazuo Ishiguro', 'Malala Yousafzai',
 
 
 def fun_key(string):
-    pos_space = string.find(" ")
-    return string[:pos_space]
+    names = string.split()
+    first_name = names[0]
+    return first_name
 
 
 
