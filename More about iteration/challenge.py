@@ -4,6 +4,24 @@
 
 
 
+#SOLUTION WITHOUT SLICING
+def beginning(lst):
+    list_ret = []
+    while True:
+        for item in lst:
+            if (len(list_ret) <10) and item != 'bye':
+                list_ret.append(item)
+            else :
+                break
+        break
+             
+    return list_ret
+                
+ 
+  
+#SOLUTION WITH SLICING
+
+
 def beginning(lst):
     new_lst = []
     i = 0
@@ -14,4 +32,5 @@ def beginning(lst):
         return new_lst[:10]
     else :
         return new_lst
+   
         
